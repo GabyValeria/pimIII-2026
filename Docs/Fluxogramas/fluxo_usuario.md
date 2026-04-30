@@ -35,7 +35,7 @@ flowchart TD
     V -- Não --> W[Concluir módulo ou trilha]
 
     W --> X[Atualizar dashboard]
-    X --> Y[Exibir progresso, histórico, ranking, streak e recomendações]
+    X --> Y[Exibir progresso, histórico, streak e recomendações]
     Y --> Z{Deseja revisar conteúdo sugerido?}
 
     Z -- Sim --> AA[Abrir recomendação personalizada]
